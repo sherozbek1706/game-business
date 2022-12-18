@@ -6,11 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/fonts/fonts.css">
+  <link rel="stylesheet" href="./assets/style/spinner.css">
   <link rel="stylesheet" href="./assets/style/style.css">
   <title>Game Business</title>
 </head>
 
 <body>
+  <div class="spinner d-none" id="spinner">
+    <h2 id="spinner__title"></h2>
+    <div class="lds-facebook">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
   <div class="container">
     <section>
       <button class="red" id="login__btn">Login</button>
@@ -19,6 +28,9 @@
     <section>
       <button class="green" id="password__btn">Password</button>
       <p id="password__text"></p>
+    </section>
+    <section id="LogOut__section">
+      <button class="blue" id="LogOut__btn">Login Out</button>
     </section>
   </div>
   <script src="./assets/js/script.js"></script>
