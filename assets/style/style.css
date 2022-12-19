@@ -42,6 +42,14 @@ button:hover {
   cursor: pointer;
 }
 
+.orange {
+  color: white;
+  background-color: darkorange;
+}
+.white {
+  color: red;
+  background-color: #e4e4e4;
+}
 .red {
   background-color: red;
   color: white;
